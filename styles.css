@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url(./imagenes/image-hero-desktop.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 3px solid orange;
+    color: orange;
+}
