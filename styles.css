@@ -1,26 +1,66 @@
+/* ESTILOS GENERALES */
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    background-image: url(./imagenes/image-hero-desktop.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
+  font-family: "Nunito", sans-serif;
+  background-image: url(./imagenes/image-hero-desktop.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: top; */
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 a:hover {
-    /* text-decoration: underline; */
-    border-bottom: 3px solid orange;
-    color: orange;
+  color: #e58411;
+  border-bottom: 3px solid #e58411;
+}
+
+/* CLASES DE AYUDA */
+.wrapper {
+  /* width: 1440px; */
+  margin: 0 auto;
+  width: min(100% - 64px, 1440px);
+}
+
+.header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.portada {
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    font-size: large;
+    margin-top: 16px;
+}
+
+.portada h1 {
+    font-weight: 700;
+    font-size: 81px;
+    text-align: center;
+}
+
+.portada p {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #e58411;
 }
