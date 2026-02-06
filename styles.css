@@ -34,37 +34,73 @@ a:hover {
 }
 
 .header {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-    margin-top: 32px;
-    align-items: center;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  align-items: center;
 }
 
 .portada {
-    height: 1024px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
 
-    font-size: large;
-    margin-top: 16px;
+  font-size: large;
+  margin-top: 16px;
 }
 
 .portada h1 {
-    font-weight: 700;
-    font-size: 81px;
-    text-align: center;
+  font-weight: 700;
+  font-size: 81px;
+  text-align: center;
 }
 
 .portada p {
-    font-weight: 400;
-    font-size: 24px;
-    text-align: center;
-    color: #e58411;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #e58411;
 }
 
 .portada p span {
-    display: block;
+  display: block;
+}
+
+.portada p strong {
+  border-bottom: 3px solid #e58411;
+}
+
+/* BUSQUEDA */
+.busqueda {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  width: 100%;
+  max-width: 343px;
+  padding: 8px;
+
+  border: 2px solid #e58411;
+  background-color: #eae9e5;
+  border-radius: 999px;
+}
+
+.busqueda input[type="text"] {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px 24px;
+  outline: none;
+}
+
+.busqueda button {
+  background-color: #e58411;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
 }
