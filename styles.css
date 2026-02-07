@@ -109,6 +109,53 @@ a:hover {
   color: #8D8D8D;
 }
 
+.beneficios {
+  height: 500px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+
+  max-width: 1050px;
+}
+
+.beneficios h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.beneficios h3 {
+  font-size: 20px;
+  font-weight: 650;
+}
+
+.beneficios a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  width: fit-content;
+  height: 50px;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #E58411;
+}
+
+.beneficio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  max-width: 350px;
+}
+
+.productos h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
 .experiencias {
   display: flex;
   align-items: center;
@@ -145,4 +192,17 @@ a:hover {
   font-size: 14px;
   font-weight: 700;
   color: #E58411;
+}
+
+footer {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
 }
