@@ -142,6 +142,11 @@ a:hover {
   color: #E58411;
 }
 
+.beneficios a:hover {
+  color: #e58411;
+  border-bottom: 5px solid #e58411;
+}
+
 .beneficio {
   display: flex;
   flex-direction: column;
@@ -187,6 +192,18 @@ a:hover {
   gap: 16px;
 
   max-width: 540px;
+}
+
+.producto-contenido h3 {
+  font-size: 17.5px;
+  color: #8b8b8b;
+  font-weight: 600;
+}
+
+.producto-contenido p {
+  font-size: 25px;
+  color: #e58411;
+  font-weight: 600;
 }
 
 .experiencias {
